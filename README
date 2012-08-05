@@ -1,0 +1,47 @@
+Project Partners: Rahul Manghwani(rrm333@nyu.edu) and Tao He (th1133@nyu.edu)
+
+Need to complete TCMalloc Implementation. Please find the report on benchmarking as Report.pdf
+
+In order to perform benchmarking please download the corresponding libraries.
+You will need google's TCMalloc and Lockless Allocators llalloc. 
+
+//Here is the link where Creators of Lockless Allocator cited our paper : http://locklessinc.com/whatsnew.shtml
+
+myTCMalloc implementainon
+(1) page_map.hpp -- a class which maps from 64-bit page#(4K page, 2^52 of them) to a pointer(void*) that
+    contains information about that page.
+    ----- Unfinished
+    ----- 4/18/2012 14:19 PM
+
+(2) mem-test classes are in files: "memtest_binsmgr.*"
+    test cases and benchmarks is in "memalloc_benchmark.cpp"
+    To run test, eg:
+    ./build/debug/memalloc_benchmark_llalloc   #OF_Threads
+    ----- 4/23/2012 15:48 PM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
